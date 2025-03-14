@@ -119,7 +119,7 @@ configuration = huggingface
 [huggingface]
 provider = huggingface
 email = <your email>
-password = <your password>
+api_key = <your password>
 model = meta-llama/Llama-3.3-70B-Instruct
 ```
 
@@ -177,6 +177,12 @@ provider = deepseek
 api_key = <your API key>
 model = deepseek-chat
 ```
+
+### Put the API key on your keyring
+
+Instead of putting the API key in the configuration file, you can let
+`fish-ai` load it from your keyring. To save a new API key or transfer
+an existing API key to your keyring, run `fish_ai put_api_key`.
 
 ## 🙉 How to use
 
