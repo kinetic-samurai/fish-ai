@@ -22,7 +22,7 @@ dependencies = [
   "mistralai==1.6.0",
   "binaryornot==0.4.4",
   "anthropic==0.49.0",
-  "cohere==5.14.2",
+  "cohere==5.15.0",
   "keyring==25.6.0",
 ]
 
