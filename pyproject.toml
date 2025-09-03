@@ -21,7 +21,7 @@ dependencies = [
   "hugchat==0.5.1",
   "mistralai==1.9.9",
   "binaryornot==0.4.4",
-  "anthropic==0.64.0",
+  "anthropic==0.65.0",
   "cohere==5.17.0",
   "keyring==25.6.0",
 ]
